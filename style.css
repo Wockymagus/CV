@@ -1,5 +1,5 @@
 .flex {display: flex;}
-.justify_cont{justify-content: center;}
+
 .justify_items{justify-items: center;}
 .justify_self{justify-self: center;}
 .align_items {align-items: center;}
@@ -13,6 +13,18 @@
 .yellow {background-color: yellow;}
 .green {background-color: gree;}
 .violet {background-color: blueviolet;}
+.white {background-color: white;}
+.color1 {background-color: rgb(87, 87, 180);}
+.color2 {background-color: rgb(55, 56, 105);}
+
+.jccenter{justify-content: center;}
+.jcbetween {justify-content: space-between;}
+.jcevenly{justify-content: space-evenly;}
+.jcstart{justify-content: start;}
+
+.gap {gap: 20px;}
+.padding10{padding-inline: 10px;}
+.paddingb0{padding-block: 0;}
 
 .part0 {
     margin: 5px;
@@ -31,7 +43,8 @@
 
 .part2_1 {
     margin: 5px;
-    padding: 20px;
+    padding: 1px;
+    padding-inline: 20px;
     height: 240x;
     width: 580px;
 }
@@ -61,3 +74,11 @@
     border-bottom-left-radius: 2%;
 }
 
+h1{
+   text-align: center ;
+}
+
+.center{text-align: center;}
+.textjust{
+    text-align: justify;
+}
