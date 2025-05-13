@@ -1,0 +1,63 @@
+.flex {display: flex;}
+.justify_cont{justify-content: center;}
+.justify_items{justify-items: center;}
+.justify_self{justify-self: center;}
+.align_items {align-items: center;}
+.align_cont {align-content: center;}
+.align_self{align-self: center;}
+
+/*colors*/
+.black {background-color: black;}
+.red {background-color: red;}
+.blue {background-color: blue;}
+.yellow {background-color: yellow;}
+.green {background-color: gree;}
+.violet {background-color: blueviolet;}
+
+.part0 {
+    margin: 5px;
+    height: 1000px;
+    width: 1200px;
+}
+
+.part2 {
+    padding: 2px;
+    height: 240px;
+}
+
+.part2_0 {
+    padding: 2px;
+}
+
+.part2_1 {
+    margin: 5px;
+    padding: 20px;
+    height: 240x;
+    width: 580px;
+}
+
+.circle {
+    width: 250px;
+    background-image: url(https://i.pinimg.com/564x/72/6b/90/726b9006822d03fb0a33202e5ec9a8e2.jpg);
+    background-position-x: -2.5cm;
+    background-position-y: -1cm;
+    border-radius: 50%;
+}
+
+.bordall2{
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.bordr2{
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+.bordl2{
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
